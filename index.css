@@ -1,6 +1,7 @@
 * {
     font-family: catamaran;
     color: #4c4c4d;
+
 }
 .logo {
     width: 86px;
@@ -69,7 +70,7 @@ h2 {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    height: 200px;
+    /* height: 200px; */
     border-radius: 10px;
     max-width: 800px;
     padding: 30px;
@@ -79,6 +80,7 @@ h2 {
 body {
     background-color: #fafafa;
     margin: 0;
+    overflow-x: hidden;
 }
 h3 {
     margin: 8px;
@@ -86,9 +88,10 @@ h3 {
 .harry-image {
     display: inline-block;
     max-width: 250px;
+    object-fit: cover;
     margin: 30px;
-    max-height: 300px;
-    height: 260px;
+    /* max-height: 300px;
+    height: 260px; */
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
 }
@@ -102,8 +105,8 @@ h3 {
     object-fit: cover;
     width: 250px;
     margin: 30px;
-    max-height: 400px;
-    height: 300px;
+    /* max-height: 400px;
+    height: 300px; */
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
 }
@@ -215,4 +218,33 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+}
+@media (max-width: 500px) {
+    .info-container {
+        display: block;
+    }
+    .harry-image {
+        box-sizing: border-box;
+    }
+    .what-container {
+        display: block;
+    }
+    .what-image {
+        box-sizing: border-box;
+    }
+    .event-container {
+        display: block;
+    }
+    h4 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
