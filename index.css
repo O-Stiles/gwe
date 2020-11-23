@@ -1,0 +1,218 @@
+* {
+    font-family: catamaran;
+    color: #4c4c4d;
+}
+.logo {
+    width: 86px;
+    object-fit: initial;
+    object-position: center;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    display: inline;
+    color: inherit;
+    padding: 20px;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 60px;
+    font-size: 18px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    /* margin: 20px; */
+
+}
+.logodum {
+    width: 86px;
+}
+hr {
+    width: 70%;
+    height: 1px;
+    border-left: 0;
+    margin: auto;
+}
+nav a:hover {
+    color: #f1ac02;
+   }
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    font-style: italic;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.runner {
+    background-image: url(https://cdn.website-editor.net/09d2453fc4ff4a4eb037743cbd2f9080/dms3rep/multi/P1130240.JPG);
+    height: 500px;
+    background-position: center;
+    background-origin: cover;
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+.info-card {
+    background-color: #faf2dc;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    max-width: 800px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+}
+body {
+    background-color: #fafafa;
+    margin: 0;
+}
+h3 {
+    margin: 8px;
+}
+.harry-image {
+    display: inline-block;
+    max-width: 250px;
+    margin: 30px;
+    max-height: 300px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+}
+.info-container {
+    display: flex;
+    margin-top: 60px;
+
+}
+.what-image {
+    display: inline-block;
+    object-fit: cover;
+    width: 250px;
+    margin: 30px;
+    max-height: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+}
+.what-card {
+    background-color: #faf2dc;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    max-width: 800px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+}
+.what-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 1px;
+    margin-top: 10px;
+    font-style: italic;
+    padding: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.event-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    padding: 30px;
+    margin-top: 70px;
+}
+.event-card {
+    background-color: #faf2dc;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.19);
+    margin-bottom: 50px;
+}
+.event-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: ;
+}
+.event-content {
+    padding: 20px;
+}
+h5 {
+    font-size: 20px;
+}
+.enter-button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+    background-color: #4181d6;
+    width: 300px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 200ms;
+}
+    
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.enter-button:hover {
+    background-color: #122f54;
+    color: white;
+    
+    
+}
+footer {
+    background-color: #07075f;
+    padding: 40px;
+    margin-top: 100px;
+}
+.footer-text {
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+}
+.icon-container i {
+    font-size: 50px;
+    color: #606061;
+    margin: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text-two {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
